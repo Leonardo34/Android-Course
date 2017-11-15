@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:weightSum="5"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/black"
+    android:orientation="horizontal">
+
+    <LinearLayout  android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50"
+            android:src="@drawable/renner"
+            android:layout_marginTop="10"/>
+        <TextView android:layout_height="30"
+            android:layout_width="match_parent"
+            android:text="Tela Inicial"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="5"></TextView>
+    </LinearLayout>
+    <LinearLayout  android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50"
+            android:src="@drawable/Union"
+            android:layout_marginTop="10"/>
+        <TextView android:layout_height="30"
+            android:layout_width="match_parent"
+            android:text="Loja Virtual"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="5"></TextView>
+    </LinearLayout>
+    <LinearLayout  android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50"
+            android:src="@drawable/heart"
+            android:layout_marginTop="10"/>
+        <TextView android:layout_height="30"
+            android:layout_width="match_parent"
+            android:text="Blog"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="5"></TextView>
+    </LinearLayout>
+    <LinearLayout  android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50"
+            android:src="@drawable/cartao"
+            android:layout_marginTop="10"/>
+        <TextView android:layout_height="30"
+            android:layout_width="match_parent"
+            android:text="Cartões"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="5"></TextView>
+    </LinearLayout>
+    <LinearLayout  android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50"
+            android:src="@drawable/pont"
+            android:layout_marginTop="10"/>
+        <TextView android:layout_height="30"
+            android:layout_width="match_parent"
+            android:text="Mais"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginTop="5"></TextView>
+    </LinearLayout>
+</LinearLayout>

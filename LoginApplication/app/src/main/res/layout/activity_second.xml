@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.cwi.loginapplication.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo_image_view"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="75"
+        android:layout_marginTop="@dimen/logo_margin_top"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginStart="50dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/pass" />
+
+            <ImageView android:layout_height="12dp"
+                android:layout_width="12dp"
+                android:src="@drawable/ponto"
+                android:layout_marginLeft="65dp"></ImageView>
+
+            <ImageView android:layout_height="12dp"
+                android:layout_width="12dp"
+                android:src="@drawable/ponto"
+                android:layout_marginLeft="20dp"></ImageView>
+
+            <ImageView android:layout_height="12dp"
+                android:layout_width="12dp"
+                android:src="@drawable/pontoBranco"
+                android:layout_marginLeft="20dp"></ImageView>
+
+            <ImageView android:layout_height="12dp"
+                android:layout_width="12dp"
+                android:src="@drawable/pontoBranco"
+                android:layout_marginLeft="20dp"></ImageView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/login_divisor" />
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:weightSum="3">
+
+            <TextView android:layout_height="90"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Vinho"
+                android:textAlignment="center"
+                android:background="@drawable/back"></TextView>
+            <TextView android:layout_height="90"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Tainha"
+                android:textAlignment="center"
+                android:background="@drawable/back"></TextView>
+            <TextView android:layout_height="90"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Sexo"
+                android:textAlignment="center"
+                android:background="@drawable/back"></TextView>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:gravity="center"
+            android:text="PROSEGUIR"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/view_footer_menu" />
+
+</RelativeLayout>
